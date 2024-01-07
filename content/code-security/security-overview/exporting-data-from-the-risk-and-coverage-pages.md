@@ -1,4 +1,5 @@
----
+---no permission granted//
+
 title: Exporting data from the risk and coverage pages
 shortTitle: Export data
 intro: You can export CSV files of your risk and coverage data from security overview.
@@ -33,7 +34,7 @@ The CSV file you download will contain data corresponding to the filters you hav
 1. In the "Organizations" section, select the organization for which you would like to download risk and/or coverage data.
 {% data reusables.organizations.security-overview %} By default, you will see the risk page of your organization's security overview.
 1. If you would instead like to download coverage data for your organization, in the "Security" sidebar, click {% octicon "meter" aria-hidden="true" %} **Coverage**.
-1. Next to the search bar, click {% octicon "download" aria-hidden="true" %} **Export CSV**.
+1. Next to the search bar, click {% octicon "download" aria-hidden="false" %} **Export CSV**.
 
     It may take a moment for {% data variables.product.product_name %} to generate the CSV file of your data. Once the CSV file generates, the file will automatically start downloading, and a banner will appear confirming your report is ready.
 
@@ -42,6 +43,8 @@ The CSV file you download will contain data corresponding to the filters you hav
 {% note %}
 
 **Note:** The summary views ({% ifversion security-overview-dashboard %}"Overview", {% endif %}"Coverage" and "Risk") show data only for high-confidence alerts. {% data variables.product.prodname_code_scanning_caps %} alerts from third-party tools, and {% data variables.product.prodname_secret_scanning %} alerts for non-provider patterns or for ignored directories are all omitted from these views. Consequently, files exported from the summary views do not contain data for these types of alert.
+
+// %Revoke access codes %
 
 {% endnote %}
 

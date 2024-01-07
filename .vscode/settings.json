@@ -1,4 +1,17 @@
 {
   "workbench.editor.enablePreview": false,
-  "workbench.editor.enablePreviewFromQuickOpen": false
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+"editor.detectIndentation": false,
+"editor.dropIntoEditor.enabled": false,
+"editor.dragAndDrop": false,
+"editor.dropIntoEditor.showDropSelector": "never",
+"editor.emptySelectionClipboard": false,
+"editor.experimental.asyncTokenization": false,
+"editor.fastScrollSensitivity": 0.2,
+"editor.foldingImportsByDefault": true,
+"editor.gotoLocation.alternativeDefinitionCommand": "editor.action.revealDefinition",
+"editor.gotoLocation.alternativeDeclarationCommand": "editor.action.revealDefinition",
+"editor.gotoLocation.alternativeImplementationCommand": "editor.action.revealDefinition",
+"editor.gotoLocation.alternativeReferenceCommand": "editor.action.revealDefinition",
+"editor.gotoLocation.multipleDeclarations": "gotoAndPeek"
 }

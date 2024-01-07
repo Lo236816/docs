@@ -1,6 +1,6 @@
 ---
 title: Network ports
-redirect_from:
+redirect_from: 
   - /enterprise/admin/articles/configuring-firewalls
   - /enterprise/admin/articles/firewall
   - /enterprise/admin/guides/installation/network-configuration
